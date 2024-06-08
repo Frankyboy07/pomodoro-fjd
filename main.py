@@ -28,7 +28,6 @@ def reset_timer():
 def start_timer():
     global reps
     reps += 1
-    print(reps)
     work_sec = WORK_MIN * 60
     short_break_sec = SHORT_BREAK_MIN * 60
     long_break_sec = LONG_BREAK_MIN * 60
